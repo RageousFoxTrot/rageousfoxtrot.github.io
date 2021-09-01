@@ -1,0 +1,81 @@
+{
+  "configVersion": 1,
+  "timestamp": 1630457607094,
+  "index": "/RTCChat/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/RTCChat/favicon.ico",
+        "/RTCChat/index.html",
+        "/RTCChat/main.b3c857e31e70b76f3334.js",
+        "/RTCChat/manifest.webmanifest",
+        "/RTCChat/polyfills.59d131fc23dfb78bbcc5.js",
+        "/RTCChat/runtime.4452ab4df613b2d4ad03.js",
+        "/RTCChat/styles.edd63f6aed3829af5fe0.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/RTCChat/assets/icons/icon-128x128.png",
+        "/RTCChat/assets/icons/icon-144x144.png",
+        "/RTCChat/assets/icons/icon-152x152.png",
+        "/RTCChat/assets/icons/icon-192x192.png",
+        "/RTCChat/assets/icons/icon-384x384.png",
+        "/RTCChat/assets/icons/icon-512x512.png",
+        "/RTCChat/assets/icons/icon-72x72.png",
+        "/RTCChat/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/RTCChat/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/RTCChat/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/RTCChat/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/RTCChat/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/RTCChat/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/RTCChat/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/RTCChat/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/RTCChat/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/RTCChat/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/RTCChat/index.html": "4acb91b0f7c69901e5ef226b0565f9a76078eea1",
+    "/RTCChat/main.b3c857e31e70b76f3334.js": "b3c3f739ac0c87aeb37b95665d90d32656bbd0aa",
+    "/RTCChat/manifest.webmanifest": "693ebb5e0d03161a0dece9498ed672b7e3f57627",
+    "/RTCChat/polyfills.59d131fc23dfb78bbcc5.js": "acf0ee93b95f1740c2913193d744d5ba220149f0",
+    "/RTCChat/runtime.4452ab4df613b2d4ad03.js": "b80a10f98d26d91d4f01a0ce18e2cceaa218e57d",
+    "/RTCChat/styles.edd63f6aed3829af5fe0.css": "1b3aa135fa40a55e85144fe1e38ad0814b48d1eb"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
